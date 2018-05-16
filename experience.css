@@ -1,4 +1,4 @@
-/* Global Layout Set-up */
+* Global Layout Set-up */
 * {
   box-sizing: border-box;
 }
@@ -65,25 +65,27 @@ header {
 header {
   line-height: 1.5;
 }
-header .profile-image {
-  margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 1px solid #82a43a;
-  transition: all .5s;
-}
-header .profile-image:hover {
-  transform: scale(1.2) rotate(360deg);
-}
 .tag {
-  background-color: #9ebaa5;
+  background-color: transparent;
   color: black;
   padding: 10px;
   border-radius: 5px;
   display: table;
-  margin: 10px auto;
+  margin: 20px auto;
 }
+
+.tags {
+  background-color: blue;
+  color: #ff9904;
+  padding: 40px;
+  border-radius: 50%;
+  display: table;
+  margin: 20px auto;
+  padding-top:90px;
+  padding-bottom:90px;
+
+}
+
 .location {
   background-color: #222;
   color: #b0dbf4;
@@ -91,7 +93,7 @@ header .profile-image:hover {
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  max-width: 240px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -105,6 +107,9 @@ header .profile-image:hover {
 ul.skills {
   padding: 0;
   text-align: center;
+}
+.list {
+  margin-top: 20px;
 }
 
 .skills li {
