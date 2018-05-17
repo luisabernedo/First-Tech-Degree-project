@@ -1,4 +1,4 @@
-* Global Layout Set-up */
+/* Global Layout Set-up */
 * {
   box-sizing: border-box;
 }
@@ -43,7 +43,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: #b0dbf4;
+    color: blue;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
