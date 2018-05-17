@@ -52,13 +52,13 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: #b0dbf4;
+  color: blue;
 }
 
 header {
   text-align: center;
   background: url('images/richmondmap.jpg') no-repeat top center ;
-  background-size: 100% 100%;
+  background-size: 1255px;
   overflow: hidden;
   padding-top: 60px;
 }
